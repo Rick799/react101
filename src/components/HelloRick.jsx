@@ -1,10 +1,17 @@
-import React from "react"
-// const add = (a,b) => {
-//     return a + b;
-// } 
-// console.log(add(5,6));
-const HelloRick = (prop) => {
-    return <h1>Hello {prop.name}</h1>;
+import React from "react";
+
+function HelloRick(prop) {
+  return (
+    // <div className="main">
+    //   <p>Hello World</p>
+    // </div>
+
+    React.createElement(
+      "div",
+      { className: "main" },
+      React.createElement("p", null, '"Hello World"')
+    )
+  );
 }
 
 export default HelloRick
