@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <HelloRick />
-      <ClassComponent/>
+      <HelloRick  name="Rick"/>
+      <ClassComponent name="Sarkar" />
     </div>
   )
 }
