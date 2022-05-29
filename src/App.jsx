@@ -1,16 +1,15 @@
 import './App.css'
-import ClassComponent from './components/ClassComponent';
-import HelloRick from './components/HelloRick';
+import ParentComponent from './components/ParentComponenet';
 
 
 function App() {
-
-  return (
-    <div>
-      <HelloRick  name="Rick"/>
-      <ClassComponent name="Sarkar" />
+   return (
+    <div className="App">
+      <header className="App-header">
+      <ParentComponent/>
+       </header>
     </div>
-  )
+  );
 }
 
 export default App
