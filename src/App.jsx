@@ -1,12 +1,12 @@
 import './App.css'
-import ParentComponent from './components/ParentComponenet';
+import Greetings from './components/Greetings';
 
 
 function App() {
    return (
     <div className="App">
       <header className="App-header">
-      <ParentComponent/>
+      <Greetings/>
        </header>
     </div>
   );
