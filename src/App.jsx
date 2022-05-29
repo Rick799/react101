@@ -1,12 +1,12 @@
 import './App.css'
-import Footballers from './components/Footballers';
+import ControlledComponents from './components/ControlledComponents';
 
 
 function App() {
    return (
     <div className="App">
-      <header className="App-header">
-      <Footballers/>
+       <header className="App-header">
+         <ControlledComponents/>
        </header>
     </div>
   );
